@@ -23,7 +23,48 @@ export default function Categories() {
               <Image style={styles.womanImage} source={require('../assets/young woman working at desk.png')} />
             </View>
           </View>
-          
+          <View style={styles.catbox1}>
+            <View style={styles.exerciseBox}>
+              <Text style={styles.exText}>Cook</Text>
+              <Text style={styles.exTex1}>12 tasks</Text>
+              <Image style={styles.image1} source={require('../assets/cooking.png')} />
+            </View>
+          </View>
+          <View style={styles.catbox1}>
+            <View style={styles.exerciseBox}>
+              <Text style={styles.exText}>Washing</Text>
+              <Text style={styles.exTex1}>12 tasks</Text>
+              <Image style={styles.image1} source={require('../assets/washing.png')} />
+            </View>
+          </View>
+          <View style={styles.catbox1}>
+            <View style={styles.exerciseBox}>
+              <Text style={styles.exText}>Playing Piano</Text>
+              <Text style={styles.exTex1}>12 tasks</Text>
+              <Image style={styles.image1} source={require('../assets/playing piano.png')} />
+            </View>
+          </View>
+          <View style={styles.catbox1}>
+            <View style={styles.exerciseBox}>
+              <Text style={styles.exText}>Teaching</Text>
+              <Text style={styles.exTex1}>12 tasks</Text>
+              <Image style={styles.image1} source={require('../assets/teaching.png')} />
+            </View>
+          </View>
+          <View style={styles.catbox1}>
+            <View style={styles.exerciseBox}>
+              <Text style={styles.exText}>Coding</Text>
+              <Text style={styles.exTex1}>12 tasks</Text>
+              <Image style={styles.image1} source={require('../assets/coding.png')} />
+            </View>
+          </View>
+          <View style={styles.catbox1}>
+            <View style={styles.exerciseBox}>
+              <Text style={styles.exText}>Playing Soccer</Text>
+              <Text style={styles.exTex1}>12 tasks</Text>
+              <Image style={styles.image1} source={require('../assets/playing soccer.png')} />
+            </View>
+          </View>
         </View>
       </ScrollView>
     </>
@@ -67,6 +108,11 @@ const styles = StyleSheet.create({
     width: 150,
     height: 132,
     marginTop: 10,
+  },
+  image1:{
+    width: 130,
+    height:120,
+    
   },
   scroll: {
     height: 550,

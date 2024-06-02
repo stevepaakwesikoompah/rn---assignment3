@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginHorizontal: 20,
-    marginTop: 32,
+    marginTop: 10,
   },
   searchEngine: {
     flex: 1,
